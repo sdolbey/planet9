@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@500;700&family=Roboto+Slab&display=swap');
+
+/*
+Headers
+font-family: 'Roboto Slab', serif;
+
+Nav
+font-family: 'Montserrat', sans-serif;
+
+Body and buttons
+font-family: 'Lato', sans-serif;
+*/
+
+/* desktop */
+
+@media all and (min-width: 600px) {
+    .container {
+        margin-top: 80px;
+        margin-left: 48px;
+        margin-right: 48px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #home-container {
+        margin-top: 40px;
+    }
+    
+    .banner {
+        height: 400px;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 24pt;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    .button {
+        font-size: 16pt;
+        padding: 12px;
+        background-color: #75a6a3;
+        color: white;
+        -webkit-box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+        box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+    }
+    
+    .sidebar {
+        -webkit-box-shadow: 0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12);
+        box-shadow: 0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12);
+    }
+
+}
