@@ -67,12 +67,17 @@ a:hover {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
     }
-    
+
     .sidebar a.active {
         text-decoration: underline;
         text-decoration-color: #CF8872;
     }
     
+    .sidebar a:hover {
+        text-decoration: underline;
+        text-decoration-color: #E9B99D;
+    }
+
     .main {
         margin-left: 320px;
         padding-bottom: 200px;
@@ -138,7 +143,7 @@ a:hover {
         font-weight: bold;
         padding: 12px;
         margin: 0;
-        background-color: #75a6a3;
+        background-color: #41878E;
         color: white;
         border: none;
         display: inline-block;
@@ -148,6 +153,7 @@ a:hover {
 
     .button:hover {
         color: white;
+        background-color: #75a6a3;
     }
 
     .submit-button {
