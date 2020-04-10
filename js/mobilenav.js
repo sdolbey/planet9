@@ -8,7 +8,7 @@ function menuFunction() {
         links.style.display = "none";
         icon.setAttribute("src", "images/menu-white-18dp.svg");
     } else {
-        bar.style.height = "60%";
+        bar.style.height = "100%";
         links.style.display = "block";
         icon.setAttribute("src", "images/close-white-18dp.svg");
     }
