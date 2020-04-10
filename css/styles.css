@@ -56,6 +56,10 @@ a:hover {
     text-decoration-color: #E9B99D;
 }
 
+nav {
+    padding-bottom: 4em;
+}
+
 /* content */
 
 .container {
