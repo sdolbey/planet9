@@ -188,8 +188,8 @@ ul.against li {
         background-color: #1D4B66;
         overflow-x: hidden;
         text-align: center;
-        -webkit-box-shadow: 0 0.5em 0.625em -0.3125em rgba(0,0,0,.2), 0 1em 1.5em 0.125em rgba(0,0,0,.14), 0 0.375em 1.875em 0.3125em rgba(0,0,0,.12);
-        box-shadow: 0 0.5em 0.625em -0.3125em rgba(0,0,0,.2), 0 1em 1.5em 0.125em rgba(0,0,0,.14), 0 0.375em 1.875em 0.3125em rgba(0,0,0,.12);
+        -webkit-box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+        box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
     }
 
     #menu-button {
