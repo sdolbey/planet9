@@ -246,6 +246,10 @@ ul.against li {
         height: 18.75em; /* 300px */
     }
 
+    div.content {
+        margin-bottom: 3em;
+    }
+
 }
 
 /* medium */
