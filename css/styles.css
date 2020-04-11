@@ -227,6 +227,16 @@ ul.against li {
         width: 100%;
     }
 
+    #topbar #mobile-logo {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 3em;
+        width: auto;
+        padding: 0.5em;
+    }
+
     .sidebar {
         display: none;
     }
