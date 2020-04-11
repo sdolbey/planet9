@@ -93,6 +93,11 @@ h2 {
     font-family: 'Roboto Slab', serif;
 }
 
+h3 {
+    font-size: 1.3em;
+    font-family: 'Roboto Slab', serif;
+}
+
 img {
     display: block;
     width: 100%;
@@ -175,6 +180,36 @@ ul.against li {
 .shop-item .price {
     margin: 0;
     font-weight: bold;
+}
+
+/* timeline */
+
+.timeline-container {
+    display: grid;
+    grid-template-columns: 3.5em 2em auto;
+    grid-gap: 0 0.5em;
+}
+
+.timeline-year {
+    text-align: right;
+}
+
+.timeline-dot {
+    margin: auto;
+    height: 1.5em;
+    width: auto;
+}
+
+.timeline-line {
+    border-left: 0.2em solid #1D4B66;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline-details > * {
+    margin-top: 0;
 }
 
 
