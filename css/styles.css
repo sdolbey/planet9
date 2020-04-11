@@ -122,15 +122,44 @@ img {
     background-color: #75a6a3;
 }
 
-.submit-button {
-    font-weight: bold;
-    padding: 12px; /* */
-    background-color: #75a6a3;
-    color: white;
-    border: none;
+.compact-form {
+    width: 90%;
     display: inline-block;
+    border: 0.2em solid #41878E;
     -webkit-box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+.compact-form input:focus, .compact-form input:active {
+    outline: none;
+}
+
+.text-field {
+    height: 2.2875em;
+    width: 80%;
+    border: none;
+    padding: 0.2em;
+}
+
+.submit-button {
+    float: right;
+    height: 2.6875em;
+    width: 2.6875em;
+    font-weight: bold;
+    padding: 0.5em; /* 12px */
+    background-color: #41878E;
+    color: white;
+    border: none;
+}
+
+.submit-button:hover {
+    color: white;
+    background-color: #75a6a3;
+    cursor: pointer;
+}
+
+.submit-button img {
+    height: 1.6875em;
 }
 
 ul.controversies {
